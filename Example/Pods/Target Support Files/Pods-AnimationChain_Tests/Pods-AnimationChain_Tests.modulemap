@@ -1,0 +1,6 @@
+framework module Pods_AnimationChain_Tests {
+  umbrella header "Pods-AnimationChain_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

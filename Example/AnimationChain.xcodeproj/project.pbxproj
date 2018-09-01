@@ -14,6 +14,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		A3CE3EC7029960274599328F /* Pods_AnimationChain_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B60B8B68D500ADD3B53591 /* Pods_AnimationChain_Example.framework */; };
+		D23FB0B2213A807D00348F6D /* AnimationChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23FB0B1213A807D00348F6D /* AnimationChain.swift */; };
 		FFBF4436A9F72B336A9C0742 /* Pods_AnimationChain_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76602CE457AB7146E651C43 /* Pods_AnimationChain_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,8 +30,8 @@
 
 /* Begin PBXFileReference section */
 		327714813DC4233E6E13F659 /* Pods-AnimationChain_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationChain_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnimationChain_Tests/Pods-AnimationChain_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3D282A7C697BFFAF1D998DEE /* AnimationChain.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AnimationChain.podspec; path = ../AnimationChain.podspec; sourceTree = "<group>"; };
-		4F1001C1BA94B9AB35BE1CB4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3D282A7C697BFFAF1D998DEE /* AnimationChain.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AnimationChain.podspec; path = ../AnimationChain.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4F1001C1BA94B9AB35BE1CB4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		55B60B8B68D500ADD3B53591 /* Pods_AnimationChain_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimationChain_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		579215EF251AF35F909692A7 /* Pods-AnimationChain_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationChain_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnimationChain_Example/Pods-AnimationChain_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* AnimationChain_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationChain_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,9 +44,10 @@
 		607FACE51AFB9204008FA782 /* AnimationChain_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationChain_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		66338F1C06842B6A26629C21 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		66338F1C06842B6A26629C21 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A1674A236B97843797E71B37 /* Pods-AnimationChain_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationChain_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnimationChain_Example/Pods-AnimationChain_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A49750E91CC22C0A52418030 /* Pods-AnimationChain_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationChain_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnimationChain_Tests/Pods-AnimationChain_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D23FB0B1213A807D00348F6D /* AnimationChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AnimationChain.swift; path = ../AnimationChain/Classes/AnimationChain.swift; sourceTree = "<group>"; };
 		E76602CE457AB7146E651C43 /* Pods_AnimationChain_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimationChain_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -72,6 +74,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				D23FB0B1213A807D00348F6D /* AnimationChain.swift */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for AnimationChain */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -207,7 +210,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
@@ -324,6 +327,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				D23FB0B2213A807D00348F6D /* AnimationChain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,12 +381,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -430,12 +436,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;

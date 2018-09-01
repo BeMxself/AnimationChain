@@ -1,0 +1,6 @@
+framework module AnimationChain {
+  umbrella header "AnimationChain-umbrella.h"
+
+  export *
+  module * { export * }
+}

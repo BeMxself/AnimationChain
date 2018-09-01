@@ -1,0 +1,22 @@
+{
+  "name": "AnimationChain",
+  "version": "0.1.0",
+  "summary": "A short description of AnimationChain.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/BeMxself/AnimationChain",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "BeMxself": "song.mingxu@foxmail.com"
+  },
+  "source": {
+    "git": "https://github.com/BeMxself/AnimationChain.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AnimationChain/Classes/**/*"
+}

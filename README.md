@@ -11,6 +11,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+None
+
 ## Installation
 
 AnimationChain is available through [CocoaPods](https://cocoapods.org). To install
@@ -22,7 +24,7 @@ pod 'AnimationChain'
 
 ## Author
 
-BeMxself, song.mingxu@foxmail.com
+Song Mingxu, song.mingxu@foxmail.com
 
 ## License
 
