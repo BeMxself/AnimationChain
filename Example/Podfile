@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AnimationChain_Example' do
+  pod 'AnimationChain', :path => '../'
+
+  target 'AnimationChain_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
